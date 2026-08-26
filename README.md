@@ -6,12 +6,13 @@ Day to day I write Go, Node.js/TypeScript and shell, and I care about reliabilit
 
 ## Currently
 
-- Actively contributing to [Kubernetes](https://github.com/kubernetes/kubernetes) — kubelet node-lifecycle and eviction fixes, contextual logging in kube-controller-manager, declarative validation migrations, and an informer-gen code-generation fix
-- Working my way along the contributor path: good first issues → bug fixes → codegen and validation internals
+Trying to find my footing in open source. Lately I've been spending spare time in the [Kubernetes](https://github.com/kubernetes/kubernetes) community — reading code, following reviews, and sending small patches around kubelet node lifecycle, contextual logging, and validation/codegen internals. All still in review, and I've been learning a lot from the process itself.
+
+I've also started poking around Prometheus, Redis, Nacos and a few other projects with small fixes. Genuinely enjoying community participation and interested in contributing more wherever I can be useful.
 
 ## Interests
 
-Distributed systems, Kubernetes internals, code generation, web infrastructure, developer tooling.
+Distributed systems, Kubernetes internals, code generation, web infrastructure, developer tooling, and open-source communities.
 
 <picture>
   <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=neoLsH&show_icons=true&theme=transparent&hide_rank=true" />
