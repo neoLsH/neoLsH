@@ -6,9 +6,9 @@ Day to day I write Go, Node.js/TypeScript and shell, and I care about reliabilit
 
 ## Currently
 
-Trying to find my footing in open source. Lately I've been spending spare time in the [Kubernetes](https://github.com/kubernetes/kubernetes) community — reading code, following reviews, and sending small patches around kubelet node lifecycle, contextual logging, and validation/codegen internals. All still in review, and I've been learning a lot from the process itself.
+Trying to find my footing in open source. Lately I've been spending spare time in the [Kubernetes](https://github.com/kubernetes/kubernetes) community — reading code, following reviews, and sending small patches around kubelet node lifecycle, contextual logging, and validation/codegen internals. All still in review, and genuinely enjoying the process itself.
 
-I've also started poking around Prometheus, Redis, Nacos and a few other projects with small fixes. Genuinely enjoying community participation and interested in contributing more wherever I can be useful.
+I've also started poking around Prometheus, Redis, Nacos and a few other projects with small fixes. Community participation has been rewarding, and I'm interested in contributing more wherever I can be useful.
 
 ## Interests
 
