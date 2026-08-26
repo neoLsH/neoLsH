@@ -6,13 +6,13 @@ Day to day I write Go, Node.js/TypeScript and shell, and I care about reliabilit
 
 ## Currently
 
-Trying to find my footing in open source. Lately I've been spending spare time in the [Kubernetes](https://github.com/kubernetes/kubernetes) community — reading code, following reviews, and sending small patches around kubelet node lifecycle, contextual logging, and validation/codegen internals. All still in review, and genuinely enjoying the process itself.
+Trying to find my footing in open source. Lately I've been spending spare time in the [Kubernetes](https://github.com/kubernetes/kubernetes) community — reading code, following reviews, and sending small patches around kubelet node lifecycle and pod eviction, contextual logging, and validation/codegen internals.
 
-I've also started poking around Prometheus, Redis, Nacos and a few other projects with small fixes. Community participation has been rewarding, and I'm interested in contributing more wherever I can be useful.
+I'm also poking around [Nacos](https://github.com/nacos-group), mostly trying to keep the Node.js and Go SDKs consistent with the Java one on local caching, subscription and publish semantics. Everything is still in review — but community participation has been rewarding, and I'm interested in contributing more wherever I can be useful.
 
 ## Interests
 
-Distributed systems, Kubernetes internals, code generation, web infrastructure, developer tooling, and open-source communities.
+Distributed systems, Kubernetes internals, distributed configuration and service discovery, web infrastructure, developer tooling, and open-source communities.
 
 <picture>
   <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=neoLsH&show_icons=true&theme=transparent&hide_rank=true" />
