@@ -2,13 +2,13 @@
 
 I'm a backend engineer at Alibaba (Qwen) in Guangzhou, working on web data infrastructure — large-scale page rendering and content acquisition services that sit between the open web and LLM applications.
 
-Day to day I write Go, Node.js/TypeScript and shell, and I care about reliability, observability, and keeping systems boring.
+Day to day I write Go, Java, Node.js/TypeScript and shell, and I care about reliability, observability, and keeping systems boring.
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white) ![Nacos](https://img.shields.io/badge/Nacos-2A66CF?style=flat) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white) ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white) ![Nacos](https://img.shields.io/badge/Nacos-2A66CF?style=flat) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white) ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
 ## Open source
 
-Contributing to [Kubernetes](https://github.com/kubernetes/kubernetes) and [Nacos](https://github.com/nacos-group). I enjoy the community side of open source and I'm interested in taking on more wherever I can be useful.
+Contributing to [Kubernetes](https://github.com/kubernetes/kubernetes), [Nacos](https://github.com/nacos-group), [Redis](https://github.com/redis/redis) and [Prometheus](https://github.com/prometheus). I enjoy the community side of open source and I'm interested in taking on more wherever I can be useful.
 
 **Kubernetes** — currently in review:
 
@@ -25,6 +25,14 @@ Contributing to [Kubernetes](https://github.com/kubernetes/kubernetes) and [Naco
 - align config local cache with the Java SDK (failover + snapshot lifecycle) — [nacos-sdk-nodejs#154](https://github.com/nacos-group/nacos-sdk-nodejs/pull/154)
 - support `publishConfigCas` for optimistic-lock style config publish — [nacos-sdk-nodejs#153](https://github.com/nacos-group/nacos-sdk-nodejs/pull/153)
 - always subscribe services loaded from local disk cache — [nacos-sdk-go#911](https://github.com/nacos-group/nacos-sdk-go/pull/911)
+
+**Redis** — merged:
+
+- fix keyspace notification event order for list move commands — [redis/docs#3855](https://github.com/redis/docs/pull/3855)
+
+**Prometheus** — merged:
+
+- procfs: model legacy TcpExt counters removed from recent kernels — [procfs#863](https://github.com/prometheus/procfs/pull/863)
 
 ## Interests
 
