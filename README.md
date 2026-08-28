@@ -26,13 +26,14 @@ Contributing to [Kubernetes](https://github.com/kubernetes/kubernetes), [Nacos](
 - support `publishConfigCas` for optimistic-lock style config publish — [nacos-sdk-nodejs#153](https://github.com/nacos-group/nacos-sdk-nodejs/pull/153)
 - always subscribe services loaded from local disk cache — [nacos-sdk-go#911](https://github.com/nacos-group/nacos-sdk-go/pull/911)
 
-**Redis** — merged:
+**Redis**:
 
-- fix keyspace notification event order for list move commands — [redis/docs#3855](https://github.com/redis/docs/pull/3855)
+- fix keyspace notification event order for list move commands — [redis/docs#3855](https://github.com/redis/docs/pull/3855) (merged)
 
-**Prometheus** — merged:
+**Prometheus**:
 
-- procfs: model legacy TcpExt counters removed from recent kernels — [procfs#863](https://github.com/prometheus/procfs/pull/863)
+- procfs: model legacy TcpExt counters removed from recent kernels — [procfs#863](https://github.com/prometheus/procfs/pull/863) (merged)
+- node_exporter: use procfs parsers for netstat, snmp and snmp6 — [node_exporter#3796](https://github.com/prometheus/node_exporter/pull/3796) (in review)
 
 ## Interests
 
