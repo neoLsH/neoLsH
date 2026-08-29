@@ -18,6 +18,7 @@ Contributing to [Kubernetes](https://github.com/kubernetes/kubernetes), [Nacos](
 - migrate Deployment and ReplicaSet selector to declarative validation — [#141558](https://github.com/kubernetes/kubernetes/pull/141558)
 - informer-gen: use plural-exceptions-aware namer for GVR resource name — [#141566](https://github.com/kubernetes/kubernetes/pull/141566)
 - kubelet: add unit tests for secret manager implementations — [#141567](https://github.com/kubernetes/kubernetes/pull/141567)
+- cluster-autoscaler: honor scale-down-delay-after-failure for async deletion failures — [cluster-autoscaler#79](https://github.com/kubernetes-sigs/cluster-autoscaler/pull/79)
 
 **Nacos** — keeping the Node.js and Go SDKs consistent with the Java one:
 
@@ -36,6 +37,10 @@ Contributing to [Kubernetes](https://github.com/kubernetes/kubernetes), [Nacos](
 - alertmanager: make silence creator and comment optional — [alertmanager#5471](https://github.com/prometheus/alertmanager/pull/5471) (merged)
 - procfs: model legacy TcpExt counters removed from recent kernels — [procfs#863](https://github.com/prometheus/procfs/pull/863) (merged)
 - node_exporter: use procfs parsers for netstat, snmp and snmp6 — [node_exporter#3796](https://github.com/prometheus/node_exporter/pull/3796) (in review)
+
+**Other communities**:
+
+- better-harness: attribute verdict source and guard green runs in the project docs — [better-harness#121](https://github.com/QoderAI/better-harness/pull/121) (merged)
 
 ## Interests
 
