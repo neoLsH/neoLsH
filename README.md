@@ -25,6 +25,7 @@ Contributing to [Kubernetes](https://github.com/kubernetes/kubernetes), [Nacos](
 - align config local cache with the Java SDK (failover + snapshot lifecycle) — [nacos-sdk-nodejs#154](https://github.com/nacos-group/nacos-sdk-nodejs/pull/154)
 - support `publishConfigCas` for optimistic-lock style config publish — [nacos-sdk-nodejs#153](https://github.com/nacos-group/nacos-sdk-nodejs/pull/153)
 - always subscribe services loaded from local disk cache — [nacos-sdk-go#911](https://github.com/nacos-group/nacos-sdk-go/pull/911)
+- fix the default value of `nacos.core.auth.enabled` in the auth docs — [nacos-group.github.io#1144](https://github.com/nacos-group/nacos-group.github.io/pull/1144)
 
 **Redis**:
 
@@ -32,6 +33,7 @@ Contributing to [Kubernetes](https://github.com/kubernetes/kubernetes), [Nacos](
 
 **Prometheus**:
 
+- alertmanager: make silence creator and comment optional — [alertmanager#5471](https://github.com/prometheus/alertmanager/pull/5471) (merged)
 - procfs: model legacy TcpExt counters removed from recent kernels — [procfs#863](https://github.com/prometheus/procfs/pull/863) (merged)
 - node_exporter: use procfs parsers for netstat, snmp and snmp6 — [node_exporter#3796](https://github.com/prometheus/node_exporter/pull/3796) (in review)
 
