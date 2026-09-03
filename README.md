@@ -17,8 +17,9 @@ Contributing to [Nacos](https://github.com/nacos-group), [Redis](https://github.
 - add `selectOneHealthyInstance` to the Node.js naming client — [nacos-sdk-nodejs#152](https://github.com/nacos-group/nacos-sdk-nodejs/pull/152) (merged)
 - align config local cache with the Java SDK (failover + snapshot lifecycle) — [nacos-sdk-nodejs#154](https://github.com/nacos-group/nacos-sdk-nodejs/pull/154)
 - support `publishConfigCas` for optimistic-lock style config publish — [nacos-sdk-nodejs#153](https://github.com/nacos-group/nacos-sdk-nodejs/pull/153) (merged)
-- always subscribe services loaded from local disk cache — [nacos-sdk-go#911](https://github.com/nacos-group/nacos-sdk-go/pull/911)
+- always subscribe services loaded from local disk cache — [nacos-sdk-go#911](https://github.com/nacos-group/nacos-sdk-go/pull/911) (merged)
 - fix the default value of `nacos.core.auth.enabled` in the auth docs — [nacos-group.github.io#1144](https://github.com/nacos-group/nacos-group.github.io/pull/1144)
+- add a Java SDK client metrics guide for the Micrometer migration (follow-up to alibaba/nacos#15793) — [nacos-group.github.io#1147](https://github.com/nacos-group/nacos-group.github.io/pull/1147)
 
 **Redis**:
 
@@ -29,6 +30,16 @@ Contributing to [Nacos](https://github.com/nacos-group), [Redis](https://github.
 - alertmanager: make silence creator and comment optional — [alertmanager#5471](https://github.com/prometheus/alertmanager/pull/5471) (merged)
 - procfs: model legacy TcpExt counters removed from recent kernels — [procfs#863](https://github.com/prometheus/procfs/pull/863) (merged)
 - node_exporter: use procfs parsers for netstat, snmp and snmp6 — [node_exporter#3796](https://github.com/prometheus/node_exporter/pull/3796) (merged)
+
+**Kubernetes** — currently in review:
+
+- kube-apiserver: use contextual logging — [kubernetes#141778](https://github.com/kubernetes/kubernetes/pull/141778)
+- kube-controller-manager: use contextual logging in the clustertrustbundle publisher controller — [kubernetes#141553](https://github.com/kubernetes/kubernetes/pull/141553)
+- batch: enable the commentstart kube-api-linter rule — [kubernetes#141783](https://github.com/kubernetes/kubernetes/pull/141783)
+- networking: migrate IngressClass parameters scope to declarative validation — [kubernetes#141682](https://github.com/kubernetes/kubernetes/pull/141682)
+- migrate Job non-negative spec fields to declarative validation — [kubernetes#141680](https://github.com/kubernetes/kubernetes/pull/141680)
+- migrate Deployment and ReplicaSet selector to declarative validation — [kubernetes#141558](https://github.com/kubernetes/kubernetes/pull/141558)
+- informer-gen: use plural-exceptions-aware namer for GVR resource name — [kubernetes#141566](https://github.com/kubernetes/kubernetes/pull/141566)
 
 **Other communities**:
 
