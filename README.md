@@ -13,13 +13,15 @@ Contributing to [Nacos](https://github.com/nacos-group), [Redis](https://github.
 **Nacos** — server-side work and keeping the Node.js and Go SDKs consistent with the Java one:
 
 - nacos server: log the resolved logging config location and add namespaceId to subscribe logs — [alibaba/nacos#15792](https://github.com/alibaba/nacos/pull/15792) (merged)
-- nacos server: remove the prometheus dependency from nacos-client via a pluggable metrics SPI — [alibaba/nacos#15793](https://github.com/alibaba/nacos/pull/15793)
+- nacos server: remove the prometheus dependency from nacos-client via a pluggable metrics SPI — [alibaba/nacos#15793](https://github.com/alibaba/nacos/pull/15793) (merged)
 - add `selectOneHealthyInstance` to the Node.js naming client — [nacos-sdk-nodejs#152](https://github.com/nacos-group/nacos-sdk-nodejs/pull/152) (merged)
 - align config local cache with the Java SDK (failover + snapshot lifecycle) — [nacos-sdk-nodejs#154](https://github.com/nacos-group/nacos-sdk-nodejs/pull/154)
 - support `publishConfigCas` for optimistic-lock style config publish — [nacos-sdk-nodejs#153](https://github.com/nacos-group/nacos-sdk-nodejs/pull/153) (merged)
 - always subscribe services loaded from local disk cache — [nacos-sdk-go#911](https://github.com/nacos-group/nacos-sdk-go/pull/911) (merged)
+- remove subscriber redo entries only after a successful unsubscribe response — [nacos-sdk-go#917](https://github.com/nacos-group/nacos-sdk-go/pull/917)
+- record request latency in seconds instead of a sub-second component diff — [nacos-sdk-go#918](https://github.com/nacos-group/nacos-sdk-go/pull/918)
 - fix the default value of `nacos.core.auth.enabled` in the auth docs — [nacos-group.github.io#1144](https://github.com/nacos-group/nacos-group.github.io/pull/1144)
-- add a Java SDK client metrics guide for the Micrometer migration (follow-up to alibaba/nacos#15793) — [nacos-group.github.io#1147](https://github.com/nacos-group/nacos-group.github.io/pull/1147)
+- add a Java SDK client metrics guide for the Micrometer migration (follow-up to alibaba/nacos#15793) — [nacos-group.github.io#1147](https://github.com/nacos-group/nacos-group.github.io/pull/1147) (merged)
 
 **Redis**:
 
@@ -40,6 +42,8 @@ Contributing to [Nacos](https://github.com/nacos-group), [Redis](https://github.
 - migrate Job non-negative spec fields to declarative validation — [kubernetes#141680](https://github.com/kubernetes/kubernetes/pull/141680)
 - migrate Deployment and ReplicaSet selector to declarative validation — [kubernetes#141558](https://github.com/kubernetes/kubernetes/pull/141558)
 - informer-gen: use plural-exceptions-aware namer for GVR resource name — [kubernetes#141566](https://github.com/kubernetes/kubernetes/pull/141566)
+- credentialprovider: migrate `pkg/credentialprovider/plugin` to contextual logging — [kubernetes#141902](https://github.com/kubernetes/kubernetes/pull/141902)
+- kubelet: use contextual logging in Windows-only files — [kubernetes#141907](https://github.com/kubernetes/kubernetes/pull/141907)
 
 **Other communities**:
 
