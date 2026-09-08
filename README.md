@@ -33,7 +33,7 @@ Contributing to [Nacos](https://github.com/nacos-group), [Redis](https://github.
 - procfs: model legacy TcpExt counters removed from recent kernels — [procfs#863](https://github.com/prometheus/procfs/pull/863) (merged)
 - node_exporter: use procfs parsers for netstat, snmp and snmp6 — [node_exporter#3796](https://github.com/prometheus/node_exporter/pull/3796) (merged)
 
-**Kubernetes** — currently in review:
+**Kubernetes**:
 
 - kube-apiserver: use contextual logging — [kubernetes#141778](https://github.com/kubernetes/kubernetes/pull/141778)
 - kube-controller-manager: use contextual logging in the clustertrustbundle publisher controller — [kubernetes#141553](https://github.com/kubernetes/kubernetes/pull/141553)
@@ -44,6 +44,9 @@ Contributing to [Nacos](https://github.com/nacos-group), [Redis](https://github.
 - informer-gen: use plural-exceptions-aware namer for GVR resource name — [kubernetes#141566](https://github.com/kubernetes/kubernetes/pull/141566)
 - credentialprovider: migrate `pkg/credentialprovider/plugin` to contextual logging — [kubernetes#141902](https://github.com/kubernetes/kubernetes/pull/141902)
 - kubelet: use contextual logging in Windows-only files — [kubernetes#141907](https://github.com/kubernetes/kubernetes/pull/141907)
+- cluster-api: add contract labels to kubeadm CRDs in envtest — [cluster-api#14181](https://github.com/kubernetes-sigs/cluster-api/pull/14181) (merged)
+- cluster-api: restore `apiVersionGetter` after unit tests — [cluster-api#14189](https://github.com/kubernetes-sigs/cluster-api/pull/14189) (merged)
+- cluster-api: use installed CRD refs in patch helper test fixtures — [cluster-api#14190](https://github.com/kubernetes-sigs/cluster-api/pull/14190) (merged)
 
 **Other communities**:
 
