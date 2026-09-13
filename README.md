@@ -20,8 +20,10 @@ Contributing to [Nacos](https://github.com/nacos-group), [Redis](https://github.
 - always subscribe services loaded from local disk cache — [nacos-sdk-go#911](https://github.com/nacos-group/nacos-sdk-go/pull/911) (merged)
 - remove subscriber redo entries only after a successful unsubscribe response — [nacos-sdk-go#917](https://github.com/nacos-group/nacos-sdk-go/pull/917)
 - record request latency in seconds instead of a sub-second component diff — [nacos-sdk-go#918](https://github.com/nacos-group/nacos-sdk-go/pull/918)
+- map the v3 config list fields in the SearchConfig fallback path — [nacos-sdk-go#919](https://github.com/nacos-group/nacos-sdk-go/pull/919)
 - fix the default value of `nacos.core.auth.enabled` in the auth docs — [nacos-group.github.io#1144](https://github.com/nacos-group/nacos-group.github.io/pull/1144)
 - add a Java SDK client metrics guide for the Micrometer migration (follow-up to alibaba/nacos#15793) — [nacos-group.github.io#1147](https://github.com/nacos-group/nacos-group.github.io/pull/1147) (merged)
+- fix a bean name typo in the MCP auto-register manual — [nacos-group.github.io#1151](https://github.com/nacos-group/nacos-group.github.io/pull/1151)
 
 **Redis**:
 
