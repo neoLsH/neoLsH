@@ -8,51 +8,7 @@ Day to day I write Go, Java, Node.js/TypeScript and shell, and I care about reli
 
 ## Open source
 
-Contributing to [Nacos](https://github.com/nacos-group), [Redis](https://github.com/redis/redis) and [Prometheus](https://github.com/prometheus). I enjoy the community side of open source and I'm interested in taking on more wherever I can be useful.
-
-**Nacos** — server-side work and keeping the Node.js and Go SDKs consistent with the Java one:
-
-- nacos server: log the resolved logging config location and add namespaceId to subscribe logs — [alibaba/nacos#15792](https://github.com/alibaba/nacos/pull/15792) (merged)
-- nacos server: remove the prometheus dependency from nacos-client via a pluggable metrics SPI — [alibaba/nacos#15793](https://github.com/alibaba/nacos/pull/15793) (merged)
-- add `selectOneHealthyInstance` to the Node.js naming client — [nacos-sdk-nodejs#152](https://github.com/nacos-group/nacos-sdk-nodejs/pull/152) (merged)
-- align config local cache with the Java SDK (failover + snapshot lifecycle) — [nacos-sdk-nodejs#154](https://github.com/nacos-group/nacos-sdk-nodejs/pull/154)
-- support `publishConfigCas` for optimistic-lock style config publish — [nacos-sdk-nodejs#153](https://github.com/nacos-group/nacos-sdk-nodejs/pull/153) (merged)
-- always subscribe services loaded from local disk cache — [nacos-sdk-go#911](https://github.com/nacos-group/nacos-sdk-go/pull/911) (merged)
-- remove subscriber redo entries only after a successful unsubscribe response — [nacos-sdk-go#917](https://github.com/nacos-group/nacos-sdk-go/pull/917)
-- record request latency in seconds instead of a sub-second component diff — [nacos-sdk-go#918](https://github.com/nacos-group/nacos-sdk-go/pull/918)
-- map the v3 config list fields in the SearchConfig fallback path — [nacos-sdk-go#919](https://github.com/nacos-group/nacos-sdk-go/pull/919)
-- fix the default value of `nacos.core.auth.enabled` in the auth docs — [nacos-group.github.io#1144](https://github.com/nacos-group/nacos-group.github.io/pull/1144)
-- add a Java SDK client metrics guide for the Micrometer migration (follow-up to alibaba/nacos#15793) — [nacos-group.github.io#1147](https://github.com/nacos-group/nacos-group.github.io/pull/1147) (merged)
-- fix a bean name typo in the MCP auto-register manual — [nacos-group.github.io#1151](https://github.com/nacos-group/nacos-group.github.io/pull/1151)
-
-**Redis**:
-
-- fix keyspace notification event order for list move commands — [redis/docs#3855](https://github.com/redis/docs/pull/3855) (merged)
-
-**Prometheus**:
-
-- alertmanager: make silence creator and comment optional — [alertmanager#5471](https://github.com/prometheus/alertmanager/pull/5471) (merged)
-- procfs: model legacy TcpExt counters removed from recent kernels — [procfs#863](https://github.com/prometheus/procfs/pull/863) (merged)
-- node_exporter: use procfs parsers for netstat, snmp and snmp6 — [node_exporter#3796](https://github.com/prometheus/node_exporter/pull/3796) (merged)
-
-**Kubernetes**:
-
-- kube-apiserver: use contextual logging — [kubernetes#141778](https://github.com/kubernetes/kubernetes/pull/141778)
-- kube-controller-manager: use contextual logging in the clustertrustbundle publisher controller — [kubernetes#141553](https://github.com/kubernetes/kubernetes/pull/141553)
-- batch: enable the commentstart kube-api-linter rule — [kubernetes#141783](https://github.com/kubernetes/kubernetes/pull/141783)
-- networking: migrate IngressClass parameters scope to declarative validation — [kubernetes#141682](https://github.com/kubernetes/kubernetes/pull/141682)
-- migrate Job non-negative spec fields to declarative validation — [kubernetes#141680](https://github.com/kubernetes/kubernetes/pull/141680)
-- migrate Deployment and ReplicaSet selector to declarative validation — [kubernetes#141558](https://github.com/kubernetes/kubernetes/pull/141558)
-- informer-gen: use plural-exceptions-aware namer for GVR resource name — [kubernetes#141566](https://github.com/kubernetes/kubernetes/pull/141566)
-- credentialprovider: migrate `pkg/credentialprovider/plugin` to contextual logging — [kubernetes#141902](https://github.com/kubernetes/kubernetes/pull/141902)
-- kubelet: use contextual logging in Windows-only files — [kubernetes#141907](https://github.com/kubernetes/kubernetes/pull/141907)
-- cluster-api: add contract labels to kubeadm CRDs in envtest — [cluster-api#14181](https://github.com/kubernetes-sigs/cluster-api/pull/14181) (merged)
-- cluster-api: restore `apiVersionGetter` after unit tests — [cluster-api#14189](https://github.com/kubernetes-sigs/cluster-api/pull/14189) (merged)
-- cluster-api: use installed CRD refs in patch helper test fixtures — [cluster-api#14190](https://github.com/kubernetes-sigs/cluster-api/pull/14190) (merged)
-
-**Other communities**:
-
-- better-harness: attribute verdict source and guard green runs in the project docs — [better-harness#121](https://github.com/QoderAI/better-harness/pull/121) (merged)
+I contribute to [Nacos](https://github.com/nacos-group), [Redis](https://github.com/redis/redis), [Prometheus](https://github.com/prometheus) and [Kubernetes](https://github.com/kubernetes/kubernetes) — mostly server-side fixes, keeping the Node.js and Go SDKs consistent with the Java one, observability tooling, and cleanup work such as contextual logging and declarative validation. Some of it is merged and some is still in review. I enjoy the community side of open source and I'm interested in taking on more wherever I can be useful.
 
 ## Interests
 
