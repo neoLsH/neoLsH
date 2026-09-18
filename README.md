@@ -8,7 +8,7 @@ Day to day I write Go, Java, Node.js/TypeScript and shell, and I care about reli
 
 ## Open source
 
-I contribute to [Nacos](https://github.com/nacos-group), [Redis](https://github.com/redis/redis), [Prometheus](https://github.com/prometheus) and [Kubernetes](https://github.com/kubernetes/kubernetes) — mostly server-side fixes, keeping the Node.js and Go SDKs consistent with the Java one, observability tooling, and cleanup work such as contextual logging and declarative validation. Some of it is merged and some is still in review. I enjoy the community side of open source and I'm interested in taking on more wherever I can be useful.
+I contribute to [Nacos](https://github.com/alibaba/nacos), [Nacos-group](https://github.com/nacos-group), [Prometheus](https://github.com/prometheus) and [Kubernetes](https://github.com/kubernetes/kubernetes) — mostly server-side fixes, keeping the Node.js and Go SDKs consistent with the Java one, observability tooling, and cleanup work such as contextual logging and declarative validation. Some of it is merged and some is still in review. I enjoy the community side of open source and I'm interested in taking on more wherever I can be useful.
 
 ## Interests
 
